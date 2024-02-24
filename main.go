@@ -15,6 +15,7 @@ func main() {
 	}
 	localCli := cli.LocalCli{}
 	localCli.ExecCommand("dir")
+	localCli.ExecCommand("ls", "-l")
 }
 
 func initLogConfig() bool {
